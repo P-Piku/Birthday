@@ -36,6 +36,8 @@ body {
   background-size: 300px 300px;
   border: 1px solid #333;
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .cat, .dog {
