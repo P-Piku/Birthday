@@ -1,11 +1,11 @@
 
 let currentPuzzle = '';
 let puzzleImages = {
-  'mom': "C:\Users\mkeny\Downloads\Birthday1\assets\images\mom.jpg",
-  'dad': "C:\Users\mkeny\Downloads\Birthday1\assets\images\dad.jpg",
-  'lolia': "C:\Users\mkeny\Downloads\Birthday1\assets\images\lolia.jpg",
-  'payine': "C:\Users\mkeny\Downloads\Birthday1\assets\images\payine.jpg",
-  'kasayia': "C:\Users\mkeny\Downloads\Birthday1\assets\images\kasayia.jpg"
+  'mom': "assets\images\mom.jpg",
+  'dad': "assets\images\dad.jpg",
+  'lolia': "assets\images\lolia.jpg",
+  'payine': "assets\images\payine.jpg",
+  'kasayia': "assets\images\kasayia.jpg"
 };
 
 function startPuzzle(person) {
