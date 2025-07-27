@@ -1,0 +1,70 @@
+
+body {
+  font-family: 'Comic Sans MS', cursive;
+  text-align: center;
+  background: #ffdae0;
+  color: #333;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  padding: 20px;
+}
+
+.paw-button {
+  background: url("C:\Users\mkeny\Downloads\Birthday1\assets\images\Paw.jpg") no-repeat center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#puzzle-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 20px auto;
+  width: 320px;
+}
+
+.puzzle-piece {
+  width: 100px;
+  height: 100px;
+  background-size: 300px 300px;
+  border: 1px solid #333;
+  cursor: pointer;
+}
+
+.cat, .dog {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  animation: roam 10s infinite linear;
+}
+
+.cat {
+  background: url("C:\Users\mkeny\Downloads\Birthday1\assets\images\Missy.png") no-repeat center;
+}
+
+.dog {
+  background: url("C:\Users\mkeny\Downloads\Birthday1\assets\images\Haru.png") no-repeat center;
+  animation-delay: 5s;
+}
+
+@keyframes roam {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(80vw, 10vh); }
+  50% { transform: translate(70vw, 80vh); }
+  75% { transform: translate(10vw, 70vh); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes dogHappyTap {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(20px, 0); }
+  100% { transform: translate(0, 0); }
+}

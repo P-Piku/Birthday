@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Birthday Girl Puzzle </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday, Chakheni! 🎉</h1>
+    <div class="puzzle-selection">
+      <button class="paw-button" onclick="startPuzzle('mom')">Mom's Puzzle</button>
+      <button class="paw-button" onclick="startPuzzle('dad')">Dad's Puzzle</button>
+      <button class="paw-button" onclick="startPuzzle('lolia')">Lolia's Puzzle</button>
+      <button class="paw-button" onclick="startPuzzle('payine')">Payine's Puzzle</button>
+      <button class="paw-button" onclick="startPuzzle('kasayia')">Kasayia's Puzzle</button>
+
+    </div>
+
+    <div id="puzzle-game" style="display:none;">
+      <h2>Solve the Puzzle to Unlock the Message!</h2>
+      <div id="puzzle-grid"></div>
+    </div>
+
+    <div class="cat" id="cat"></div>
+    <div class="dog" id="dog"></div>
+
+    <audio id="mom_audio" src="assets/audio/mom_message.mp3"></audio>
+    <audio id="dad_audio" src="assets/audio/dad_message.mp3"></audio>
+    <audio id="lolia_audio" src="assets/audio/brother_message.mp3"></audio>
+    <audio id="payine_audio" src="assets/audio/dad_message.mp3"></audio>
+    <audio id="kasayia_audio" src="assets/audio/brother_message.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
